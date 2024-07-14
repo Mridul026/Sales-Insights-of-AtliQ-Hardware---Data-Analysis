@@ -30,8 +30,8 @@ FROM
     sales.date ON sales.transactions.order_date = sales.date.date
 WHERE
     sales.date.year = 2020
-        AND sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD';
+        AND sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD';
 
 /*Show total revenue in year 2019,*/
 SELECT 
@@ -42,8 +42,8 @@ FROM
     sales.date ON sales.transactions.order_date = sales.date.date
 WHERE
     sales.date.year = 2019
-        AND sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD';
+        AND sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD';
 
 /*Show  avarage in year 2020,*/
 SELECT 
@@ -54,8 +54,8 @@ FROM
     sales.date ON sales.transactions.order_date = sales.date.date
 WHERE
     sales.date.year = 2020
-        AND sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD';
+        AND sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD';
 
 /*Show  avarage in year 2019,*/
 SELECT 
@@ -66,8 +66,8 @@ FROM
     sales.date ON sales.transactions.order_date = sales.date.date
 WHERE
     sales.date.year = 2019
-        AND sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD';
+        AND sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD';
 
 /*Show  max sales amount in year 2019,*/
 SELECT 
@@ -78,8 +78,8 @@ FROM
     sales.date ON sales.transactions.order_date = sales.date.date
 WHERE
     sales.date.year = 2019
-        AND sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD';
+        AND sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD';
 
 /*Show total revenue in year 2020, January Month,*/
 SELECT 
@@ -91,8 +91,8 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'January'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD');
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD');
 
 /*Show total revenue in year 2020, February Month,*/
 SELECT 
@@ -104,8 +104,8 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'February'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD');
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD');
 
 /*Show total revenue in year 2019, January Month,*/
 SELECT 
@@ -117,8 +117,8 @@ FROM
 WHERE
     sales.date.year = 2019
         AND sales.date.month_name = 'January'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD');
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD');
 
 /*Show total revenue in year 2019, February Month,*/
 SELECT 
@@ -130,8 +130,8 @@ FROM
 WHERE
     sales.date.year = 2019
         AND sales.date.month_name = 'February'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD');
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD');
 
 /*Show total revenue in year 2020 in Chennai*/
 SELECT 
@@ -181,8 +181,8 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'January'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD')
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD')
         AND sales.transactions.market_code = 'Mark001';
 
 /*Show total revenue in year 2020, February Month, channai*/
@@ -195,8 +195,8 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'February'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD')
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD')
         AND sales.transactions.market_code = 'Mark001';
 
 /*Show total revenue in year 2020, January Month, in mumbai*/
@@ -209,8 +209,8 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'January'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD')
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD')
         AND sales.transactions.market_code = 'Mark002';
 
 /*Show total revenue in year 2020, February Month, mumbai*/
@@ -223,6 +223,6 @@ FROM
 WHERE
     sales.date.year = 2020
         AND sales.date.month_name = 'February'
-        AND (sales.transactions.currency = 'INR'
-        OR sales.transactions.currency = 'USD')
+        AND (sales.transactions.currency = 'INR'
+        OR sales.transactions.currency = 'USD')
         AND sales.transactions.market_code = 'Mark002';
